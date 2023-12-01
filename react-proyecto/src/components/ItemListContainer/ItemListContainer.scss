@@ -2,3 +2,26 @@
     margin-top: 10px;
     text-align: center;
   }
+
+  .tienda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+  
+    .cards {
+      flex: 0 0 calc(33.33% - 10px);    
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+  .fixed-element {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: auto;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
