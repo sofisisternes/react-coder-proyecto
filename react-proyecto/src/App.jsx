@@ -1,13 +1,16 @@
-
 import './App.css'
-import Navbar from './components/Navbar'
+//import './styles/index.scss'
+import Navbar from './components/Navbar/Navbar'
+import FaCartPlus from './components/Cart/CartWidget'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 function App() {
 
   return (
     <>
     < Navbar />
-    < ItemListContainer />
+    < FaCartPlus />
+    < ItemListContainer greeting="¡Bienvenido a nuestra tienda!" />
     </>
   )
 }
