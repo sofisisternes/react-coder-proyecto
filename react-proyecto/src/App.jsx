@@ -11,6 +11,7 @@ function App() {
     < Navbar />
     < FaCartPlus />
     < ItemListContainer greeting="¡Bienvenido a nuestra tienda!" />
+
     </>
   )
 }
