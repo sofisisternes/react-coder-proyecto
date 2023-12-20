@@ -1,0 +1,92 @@
+[
+   {
+      "id": "producto",
+      "nombre": "Vestido",
+      "color": "Violeta",
+      "descripcion": "Vestido largo",
+      "categoria":"Vestidos",
+      "thumbnail": "/img/vestido.jpeg",
+      "talle": "M,L",
+      "precio": 1200
+   },
+   {
+      "id": "producto1",
+      "nombre": "Blazer",
+      "color": "Verde",
+      "descripcion": "",
+      "categoria":"Abrigos",
+      "thumbnail": "/img/blazer.jpeg",
+      "talle": "S,M,L",
+      "precio": 1800
+   },
+   {
+      "id": "producto2",
+      "nombre": "Conjunto tejido",
+      "color": "Naranja",
+      "descripcion": "",
+      "categoria":"Conjuntos",
+      "thumbnail": "/img/conjunto.jpeg",
+      "talle": "UNICO",
+      "precio": 2200
+   },
+   {
+      "id": "producto3",
+      "nombre": "Musculosa",
+      "color": "Blanco",
+      "descripcion": "",
+      "categoria":"Remerasytops",
+      "thumbnail": "./img/musculosa.jpeg",
+      "talle": "S,M",
+      "precio": 600
+   },
+   {
+      "id": "producto4",
+      "nombre": "Mini jean",
+      "color": "Azul",
+      "descripcion": "",
+      "categoria":"Pollerasyshorts",
+      "thumbnail": "./img/pollera.jpeg",
+      "talle": "M,L",
+      "precio": 1500
+   },
+   {
+      "id": "producto5",
+      "nombre": "Remera",
+      "color": "Gris",
+      "descripcion": "",
+      "categoria":"Remerasytops",
+      "thumbnail": "./img/remera.jpeg",
+      "talle": "S,M,L",
+      "precio": 900
+   },
+   {
+      "id": "producto6",
+      "nombre": "Remeron",
+      "color": "Gris",
+      "descripcion": "",
+      "categoria":"Remerasytops",
+      "thumbnail": "./img/remeron.jpeg",
+      "talle": "UNICO",
+      "precio": 1300
+   },
+   {
+      "id": "producto7",
+      "nombre": "Short Jean",
+      "color": "Negro",
+      "descripcion": "",
+      "categoria":"Pollerasyshorts",
+      "thumbnail": "./img/short.jpeg",
+      "talle": "34,36,38,40",
+      "precio": 1100
+   },
+   {
+      "id": "producto8",
+      "nombre": "Top",
+      "color": "Negro",
+      "descripcion": "",
+      "categoria":"Remerasytops",
+      "thumbnail": "./img/top.jpeg",
+      "talle": "UNICO",
+      "precio": 800
+   }
+]
