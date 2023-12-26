@@ -13,4 +13,9 @@ export default defineConfig({
   server: {
     cors: true,
   },
+build: {
+  rollupOptions: {
+    external: ['react-router-dom'],
+  },
+},
 });
