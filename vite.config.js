@@ -6,16 +6,15 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      
       '@src': '/src',
     },
   },
   server: {
     cors: true,
   },
-build: {
-  rollupOptions: {
-    external: ['react-router-dom'],
+  build: {
+    rollupOptions: {
+      external: ['react-router-dom'],
+    },
   },
-},
 });
