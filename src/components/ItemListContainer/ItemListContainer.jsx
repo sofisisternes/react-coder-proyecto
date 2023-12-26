@@ -13,7 +13,8 @@ const ItemListContainer = ({ greeting }) => {
     const fetchData = async () => {
       try {
         setTimeout(async () => {
-          const response = await fetch('./src/data.json');
+          const response = await fetch('/src/data.json');
+          console.log(response);
           const data = await response.json();
 
           const productosFiltrados = categoria
@@ -25,7 +26,7 @@ const ItemListContainer = ({ greeting }) => {
         }, 1000);
 
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error('Error data:', error);
         setIsLoading(false);
       }
     };
