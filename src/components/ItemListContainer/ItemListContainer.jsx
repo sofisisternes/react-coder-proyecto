@@ -13,7 +13,7 @@ const ItemListContainer = ({ greeting }) => {
     const fetchData = async () => {
       try {
         setTimeout(async () => {
-          const response = await fetch('../../data.json');
+          const response = await fetch('/src/data.json');
           console.log(response);
           const data = await response.json();
 
