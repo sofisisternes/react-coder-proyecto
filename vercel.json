@@ -1,0 +1,11 @@
+{
+    "builds": [
+      {
+        "src": "src/index.js",
+        "use": "@vercel/static-build",
+        "config": { "root": "src" }
+      }
+    ],
+    "routes": [{ "handle": "filesystem" }, { "src": "/.*", "dest": "/src/index.html" }]
+  }
+  
