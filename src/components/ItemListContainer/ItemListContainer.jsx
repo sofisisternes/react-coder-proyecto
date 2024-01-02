@@ -13,8 +13,8 @@ const ItemListContainer = ({ greeting }) => {
     const fetchData = async () => {
       try {
         setTimeout(async () => {
-          const response = await fetch('data.json');
-          console.log(response);
+          const response = await fetch('./src/data.json');
+          
           const data = await response.json();
 
           const productosFiltrados = categoria
