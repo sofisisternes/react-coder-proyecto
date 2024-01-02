@@ -13,8 +13,9 @@ export default defineConfig({
     cors: true,
   },
   build: {
+    outDir: 'dist',
     rollupOptions: {
-      external: ['react-router-dom'],
+      external: ['react', 'react-dom', 'react-router-dom'],
     },
   },
 });
